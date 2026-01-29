@@ -1,16 +1,13 @@
 <script setup>
 import infoData from "./data/infoData";
-import { Mail, Phone } from "lucide-vue-next";
+import { Mail, Phone, Wallet } from "lucide-vue-next";
+import PrimaryButton from "./primaryButton2.vue";
 </script>
 
 <template>
   <!-- TOP INFO BAR -->
-  <section
-    class="w-full bg-primary3 text-white text-sm relative z-50"
-  >
-    <div
-      class=" px-4 py-1 flex flex-row justify-between gap-3"
-    >
+  <section class="w-full bg-primary3 text-white text-sm relative z-50">
+    <div class="px-4 py-1 flex flex-row justify-between gap-3">
       <!-- LEFT: CONTACT -->
       <div class="flex flex-wrap items-center gap-6">
         <!-- PHONE -->
@@ -26,15 +23,31 @@ import { Mail, Phone } from "lucide-vue-next";
         </div> -->
 
         <!-- EMAIL / WEBMAIL -->
-        <div class="flex items-center gap-2">
-          <Mail class="p-1 rounded-full bg-white/10 hover:bg-white/20 transition" />
-          <a
-            :href="infoData?.about?.webmailLink"
-            target="_blank"
-            class="text-xs md:text-sm text-white/90 hover:text-primary1 font-bold hover:cursor-pointer transition"
-          >
-            Webmail
-          </a>
+        <div class="flex gap-3">
+          <div class="flex items-center gap-2">
+            <Mail
+              class="p-1 rounded-full bg-white/10 hover:bg-white/20 transition"
+            />
+            <a
+              :href="infoData?.about?.webmailLink"
+              target="_blank"
+              class="text-xs md:text-sm text-white/90 hover:text-primary1 font-bold hover:cursor-pointer transition"
+            >
+              Webmail
+            </a>
+          </div>
+          <div class="flex items-center gap-2">
+            <Wallet
+              class="p-1 rounded-full bg-white/10 hover:bg-white/20 transition"
+            />
+            <a
+              :href="infoData?.about?.paymentUrl"
+              target="_blank"
+              class="text-xs md:text-sm text-white/90 hover:text-primary1 font-bold hover:cursor-pointer transition"
+            >
+              Pin Purchase
+            </a>
+          </div>
         </div>
       </div>
 
@@ -48,10 +61,7 @@ import { Mail, Phone } from "lucide-vue-next";
           rel="noopener noreferrer"
           class="p-1 rounded-full bg-white/10 hover:bg-white/20 transition"
         >
-          <component
-            :is="social.icon"
-            class="size-3 text-white"
-          />
+          <component :is="social.icon" class="size-3 text-white" />
         </a>
       </div>
     </div>

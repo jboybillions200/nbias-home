@@ -45,9 +45,9 @@ Following his graduation, Dr. Ibrahim completed his National Youth Service Corps
     },
     {
       id: "sbdzhfbdsx-cvbsdmnjhbv,sdnb",
-      name: "Dr. Yusuf Abba Raji",
+      name: "Dr. Yusuf Abbas Raji",
       title: "Director of Examination Administration ",
-      bio: "Dr. Yusuf Abba Raji (born August 1985, Lagos State, Nigeria; from Oyun Local Government Area, Kwara State) is an academic and examination administration specialist, currently serving as Director of Examination Administration at the National Board for Arabic and Islamic Studies (NBAIS).",
+      bio: "Dr. Yusuf Abbas Raji (born August 1985, Lagos State, Nigeria; from Oyun Local Government Area, Kwara State) is an academic and examination administration specialist, currently serving as Director of Examination Administration at the National Board for Arabic and Islamic Studies (NBAIS).",
       image: new URL("@/assets/staffs/s13.jpeg", import.meta.url).href,
       education: `He received early training in Islamic and Qur’anic studies before completing formal Arabic and secondary education. Dr. Raji holds a Nigerian Certificate in Education (NCE) from the College of Education, Kano State, a Diploma in Computer Studies from the International Relations Institute (UNESCO), Khartoum, and additional diplomas in Arabic and Nigerian Language Typing from WAMY, Khartoum. He earned a Bachelor of Education and a Master’s degree in Arabic Education (Curriculum and Teaching Method) from the University of Africa, Khartoum, graduating with First Class Honours, and obtained a Doctorate from the Sudan University of Science and Technology, Sudan.`,
       service: `Within NBAIS, Dr. Raji has served in strategic roles including Deputy Director, Examination Development Department, and currently as Director of Examination Administration, as well as Head of the Abuja Liaison Office. His professional career also includes leadership and teaching positions in Arabic and Islamic education across Nigeria, and part-time lecturing at Nasarawa State University.`,
