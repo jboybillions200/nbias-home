@@ -5,7 +5,7 @@ import profImage from "@/assets/staffs/reg2.png";
 import bg from "@/assets/bg/8.png";
 const founder = ref({
   prof: profImage,
-  title:'PROF. Prof. Yahuza Sulaiman Imam', 
+  title:'PROF.Yahuza Sulaiman Imam', 
   description:"Chief Executive of the Council"
 });
 </script>
