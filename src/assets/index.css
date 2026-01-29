@@ -1,0 +1,211 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+@layer base {
+  :root {
+    /* --background: rgb(63, 121, 114); */
+    /* --foreground: rgb(9, 10, 36); */
+    /* --background_footer: rgb(0, 103, 48); */
+    --background: rgb(255, 255, 255);
+    --foreground: rgb(9, 10, 36);
+    --background_footer: rgb(0, 103, 48);
+
+    --muted: rgb(230, 241, 248);
+    --muted-foreground: rgb(119, 131, 146);
+
+    --popover: rgb(255, 255, 255);
+    --popover-foreground: rgb(9, 10, 36);
+
+    --card: rgb(255, 255, 255);
+    --card-foreground: rgb(9, 10, 36);
+
+    --border: rgb(224, 233, 240);
+    --input: rgb(224, 233, 240);
+
+    --primary: rgb(6, 10, 37);
+    --primary-foreground: rgb(245, 247, 251);
+
+    --secondary: rgb(63, 121, 114);
+    --secondary-foreground: rgb(224, 233, 240);
+
+    --accent: rgb(230, 241, 248);
+    --accent-foreground: rgb(6, 10, 37);
+
+    --destructive: rgb(255, 71, 61);
+    --destructive-foreground: rgb(245, 247, 251);
+
+    --ring: rgb(9, 10, 36);
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: rgb(9, 10, 36);
+    --foreground: rgb(245, 247, 251);
+
+    --muted: rgb(42, 49, 61);
+    --muted-foreground: rgb(153, 158, 169);
+
+    --popover: rgb(9, 10, 36);
+    --popover-foreground: rgb(245, 247, 251);
+
+    --card: rgb(9, 10, 36);
+    --card-foreground: rgb(245, 247, 251);
+
+    --border: rgb(42, 49, 61);
+    --input: rgb(42, 49, 61);
+
+    --primary: rgb(245, 247, 251);
+    --primary-foreground: rgb(6, 10, 37);
+
+    --secondary: rgb(42, 49, 61);
+    --secondary-foreground: rgb(245, 247, 251);
+
+    --accent: rgb(42, 49, 61);
+    --accent-foreground: rgb(245, 247, 251);
+
+    --destructive: rgb(92, 22, 23);
+    --destructive-foreground: rgb(245, 247, 251);
+
+    --ring: rgb(202, 209, 223);
+  }
+}
+
+
+@layer base {
+  
+  
+}
+
+@layer utilities {
+  @keyframes image-loop {
+    0% { background-image: url('url(/assets/images/um.jpg.jpeg)'); }
+    33% { background-image: url('url/assets/images/jpgslide-7.jpg.jpeg'); }
+    66% { background-image: url('url(/assets/images/um.jpg.jpeg)'); }
+    100% { background-image: url('url/assets/images/jpgslide-7.jpg.jpeg'); }
+  }
+
+  .animate-image-loop {
+    animation: image-loop 9s infinite ease-in-out;
+  }
+}
