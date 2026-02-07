@@ -30,12 +30,12 @@ const routes = [
     meta: { title: "MANAGEMENT" },
   },
   {
-    path: "/aff",
+    path: "/affiliations",
     component: AffiliationView,
     name: "Aff",
-    meta: { title: "AFF" },
+    meta: { title: "AFFILIATIONS" },
   },
-  { path: "/blog", 
+  { path: "/blogs", 
     component: BlogView, 
     name: "Blog", 
     meta: { title: "BLOG" } 

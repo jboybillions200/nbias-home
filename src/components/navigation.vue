@@ -20,8 +20,8 @@ const navItems = [
   { name: "Home", path: "/" },
   { name: "About Us", path: "/about" },
   { name: "Management", path: "/management" },
-  { name: "Affiliations", path: "/aff" },
-  { name: "Blogs", path: "/blog" },
+  { name: "Affiliations", path: "/affiliations" },
+  { name: "Blogs", path: "/blogs" },
   { name: "Contact Us", path: "/contact" },
 ];
 

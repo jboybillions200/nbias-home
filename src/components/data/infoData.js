@@ -27,7 +27,7 @@ export default {
     generalLogo: Logo,
     bg1:backGround,
     bg2:back,
-    desiger:'TheCodeUnit Soft Technologies',
+    desiger:'TheCodeunit-Soft Technologies',
     designerUrl:'https://www.thecodeunit.org.ng',
     name: "nbias",
     studentUrl:"#",

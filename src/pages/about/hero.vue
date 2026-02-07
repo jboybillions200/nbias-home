@@ -3,7 +3,7 @@ import background from "@/assets/bg/5.png";
 import HeroComponent from "@/components/heroComponent.vue";
 const hero = {
   bgImage: background,
-  title: "Contact Us",
+  title: "About NBAIS",
 }
 </script>
 

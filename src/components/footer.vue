@@ -149,7 +149,7 @@ import infoData from "./data/infoData";
       <div class="flex flex-col md:flex-row items-center justify-between">
         <div class="mb-4 md:mb-0">
           <p class="text-xs text-white">
-            ©{{ infoData?.about.name }} All rights reserved
+            © <span class="uppercase font-bold">{{ infoData?.about.name }} </span> All rights reserved
             <a
               :href="infoData?.about?.designerUrl"
               target="_blank"

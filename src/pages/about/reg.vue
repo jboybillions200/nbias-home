@@ -30,7 +30,7 @@ We value the trust of educators, learners, and communities, remaining committed 
     <h2
       class="text-xl md:text-2xl lg:text-4xl font-extrabold text-primary3 italic text-center mb-8"
     >
-      About The National Board For Arabic and Islamic (NBAIS)
+      About NBAIS
     </h2>
     <div class="relative flex flex-col lg:flex-row items-center gap-12">
       <!-- Image Section -->
