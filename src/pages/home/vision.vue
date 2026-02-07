@@ -20,8 +20,8 @@ const targets = [
     animation: "animate-bounce", // subtle bounce for school
   },
   {
-    title: "9 Years Running",
-    description: "Consistent and trusted examination body for 9 years.",
+    title: "15 Years Running",
+    description: "Consistent and trusted examination body for 15 years.",
     icon: Globe,
     animation: "animate-spin-slow", // slow spin for globe
   },
