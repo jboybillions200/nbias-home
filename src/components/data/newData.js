@@ -20,24 +20,24 @@ export const newsData = [
     image: image1,
     featured: false,
   },
-  {
-    id: 3,
-    title: "The NBAIS examination timetable has been released",
-    description: `
-         `,
-    date: "2023-10-25",
-    category: "Nov-Dec Exam Time Table.",
-    image: image1,
-    featured: false,
-  },
-  {
-    id: 4,
-    title: "The National Board for Arabic and Islamic Studies (NBAIS) has officially released",
-    description: `
-         `,
-    date: "2023-10-25",
-    category: "Nov-Dec Exam Time Table.",
-    image: image1,
-    featured: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "The NBAIS examination timetable has been released",
+  //   description: `
+  //        `,
+  //   date: "2023-10-25",
+  //   category: "Nov-Dec Exam Time Table.",
+  //   image: image1,
+  //   featured: false,
+  // },
+  // {
+  //   id: 4,
+  //   title: "The National Board for Arabic and Islamic Studies (NBAIS) has officially released",
+  //   description: `
+  //        `,
+  //   date: "2023-10-25",
+  //   category: "Nov-Dec Exam Time Table.",
+  //   image: image1,
+  //   featured: false,
+  // },
 ]
