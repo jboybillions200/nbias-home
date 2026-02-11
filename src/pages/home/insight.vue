@@ -50,7 +50,7 @@ const targets = [
      <h2
         class="text-xl md:text-4xl lg:text-6xl font-extrabold mb-10 text-primary italic text-center text-primary3 capitalize"
       >
-      pillers of excellence
+      pillars  of excellence
       </h2>
 
       <Carousel 
