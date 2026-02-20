@@ -19,7 +19,7 @@ defineProps({
       <img
         :src="image"
         :alt="name"
-        class="w-60 h-[275px] object-cover object-top rounded-full mb-4 border-4 border-primary3/80"
+        class="w-60 h-[260px] object-cover object-top rounded-full mb-4 border-4 border-primary3/80"
       />
 
       <h2 class="text-xl font-bold uppercase mb-2">{{ name }}</h2>

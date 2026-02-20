@@ -3,7 +3,6 @@
     <Hero />
     <Reg />
     <Heros />
-    <!-- <Vision/> -->
   </Layout>
 </template>
 
@@ -12,5 +11,4 @@ import Layout from "@/layouts/layout.vue";
 import Hero from "@/pages/about/hero.vue";
 import Heros from "./about.vue";
 import Reg from "./reg.vue";
-// import Vision from "../home/vision.vue";
 </script>

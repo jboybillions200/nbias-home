@@ -26,7 +26,7 @@ import image from "@/assets/images/bg-1.jpeg";
 
     <!-- Content -->
     <section
-      class="relative px-6 md:px-10 lg:px-16 max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 text-justify"
+      class="relative px-6 md:px-10 flex flex-col lg:flex-row gap-10 text-justify"
     >
       <!-- About Text -->
       <div class="lg:w-[60%] space-y-5">

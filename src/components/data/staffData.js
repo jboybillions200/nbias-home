@@ -13,15 +13,25 @@ He commenced his professional career in education at an early stage, progressing
       contributions: `Dr. Salman has participated in numerous professional courses, workshops, and national and international conferences, at which he has also presented scholarly papers. Beyond his institutional responsibilities, he is actively engaged in community development and professional service, serving on the executive councils of several educational and community-based associations in Zaria, Kaduna State.`,
     },
     {
-      id: "jhdfkjxvsdhjbdz",
-      name: "Dr. Ibrahim Lawal Ibrahim",
-      title: " Director of the Centre for Tsangaya and General Studies (CTGS)",
-      bio: "Dr. Ibrahim Lawal Ibrahim (born 13 August 1984, Anguwan Kaura, Zaria City, Kaduna State, Nigeria) is an educationist and historian, currently serving as the Acting Director of the Centre for Tsangaya and General Studies (CTGS) at the National Board for Arabic and Islamic Studies (NBAIS). He is widely recognized for his leadership in Tsangaya education reform, curriculum development, and Islamic studies in Nigeria.",
-      image: new URL("@/assets/staffs/s4.png", import.meta.url).href,
-      education: `Dr. Ibrahim commenced his formal education at Al-Azhar Secondary School, Cairo, where he studied on scholarship from 1997 to 2002. He obtained a Bachelor of Arts in Education (History) from Al-Azhar University in 2006. He later earned a Master’s degree in History and International Studies from the Arab League Institute, Cairo (2015–2018), and completed a Doctor of Philosophy (PhD) in Modern and Contemporary Islamic History at As-Salam International University, Sudan (2019–2022).
-Following his graduation, Dr. Ibrahim completed his National Youth Service Corps (NYSC) at the Federal Capital Territory Administration (FCTA), Abuja, between 2007 and 2008. He subsequently worked with the Federal Radio Corporation of Nigeria (FRCN) from 2012 to 2018, where he gained experience in public communication and educational programming.`,
-      service: `In 2018, he joined NBAIS as an Education Officer I and advanced rapidly through key leadership positions: Head of Tsangaya Education (2019), Coordinator of the Centre for Tsangaya and General Studies (2020), Deputy Director (2021), and Acting Director in 2024. In these roles, he has led strategic initiatives focused on the integration and standardization of Tsangaya and Islamiyya education across Nigeria.`,
-      contributions: `Dr. Ibrahim has played a central role in the design of curricula for Tsangaya and Islamiyya schools and in the development of training programmes for school tutors and Islamic scholars. He has also acquired professional certifications in computer science, political analysis, strategic communication, and Qur’anic sciences. Through his academic expertise and administrative leadership, Dr. Ibrahim Lawal Ibrahim continues to make significant contributions to educational development and Islamic scholarship in Nigeria.`,
+      id: "829jsadgsduksd-Qnsdjfdsf",
+      name: "Malam Abdulhameed Mohammed",
+      title: "Acting Director of Finance and Accounts",
+      bio: "Malam Abdulhameed Mohammed is the Acting Director of Finance and Accounts at the National Board for Arabic and Islamic Studies (NBAIS), Nigeria. A seasoned accounting and finance professional from Zaria, Kaduna State, he brings extensive experience across the public and private sectors, with strong expertise in public financial management, e-governance, and institutional accounting systems.",
+      image: new URL("@/assets/staffs/s21.png", import.meta.url).href,
+      education:
+        "He holds a Master’s degree in Accounting from Ahmadu Bello University (ABU), Zaria. Over the course of his career, Malam Abdulhameed has served in key financial management roles, including Senior Executive Officer (Accounts) at the Kaduna State Local Government Service Board and Head of Accounts and Finance at Transproject Nigeria Limited, where he oversaw financial operations, compliance, and reporting.",
+      service:
+        "A pioneer staff member of NBAIS, he has played a central role in establishing and strengthening the Board’s financial architecture. His service at NBAIS spans several strategic positions, including Accountant and Principal Accountant, with responsibility for payroll administration, expenditure control, grant management, and the preparation of final accounts. He also contributed to institutional planning and fiscal oversight as a member of the NBAIS Budget Standing Committees between 2017 and 2020.",
+      service2: "",
+      contributions: `Malam Abdulhameed is actively engaged in Nigeria’s e-governance reforms in public finance, serving as a reviewer for the Government Integrated Financial Management Information System (GIFMIS) payment platform and the Treasury Single Account (TSA). His professional practice is guided by strong principles of due diligence, accountability, and ethical conduct.
+He is an Associate Member of the Association of National Accountants of Nigeria (ANAN), the Chartered Institute of Taxation of Nigeria (CITN), and the Institute of Certified Public Accountants of Nigeria (CPA). He is also a Fellow of the Chartered Institute of Information and Strategy Management (FCISM).`,
+      status: "Malam Abdulhameed Mohammed is married and has children.",
+    },
+    {
+      id:"hfbhdsmgfjsd.kjbvsd,gdssd",
+      name:"Dr. Mariam Zubairu Dalhatu",
+      title:"Director exams development",
+      image: new URL("@/assets/staffs/s22.png", import.meta.url).href,
     },
     {
       id: "sbdzhfbdsx-cvbsdmnjhbv,sdnb",
@@ -61,6 +71,17 @@ Currently, he serves as the Head of Audit at the National Board for Arabic and I
       image: new URL("@/assets/staffs/s7.jpeg", import.meta.url).href,
       education: `She holds an M.Sc. in Computer Science from Ahmadu Bello University, a Professional Diploma in Education, and a B.Tech. in Computer Science. Her expertise includes ICT governance, data science, quality assurance, examination management, and institutional systems development, with strong proficiency in Python, R, data analysis, and project management.`,
       service: `Prior to her current role, she served in academic leadership positions at Dialogue Girls College and gained extensive operational experience in the banking sector. A registered member of the Computer Professionals (Registration Council of Nigeria) (CPN), Hindatu Mohammed is recognized for her leadership, analytical skills, and commitment to strengthening ICT-driven service delivery in the education sector`,
+    },
+    {
+      id: "jhdfkjxvsdhjbdz",
+      name: "Dr. Ibrahim Lawal Ibrahim",
+      title: " Director of the Centre for Tsangaya and General Studies (CTGS)",
+      bio: "Dr. Ibrahim Lawal Ibrahim (born 13 August 1984, Anguwan Kaura, Zaria City, Kaduna State, Nigeria) is an educationist and historian, currently serving as the Acting Director of the Centre for Tsangaya and General Studies (CTGS) at the National Board for Arabic and Islamic Studies (NBAIS). He is widely recognized for his leadership in Tsangaya education reform, curriculum development, and Islamic studies in Nigeria.",
+      image: new URL("@/assets/staffs/s4.png", import.meta.url).href,
+      education: `Dr. Ibrahim commenced his formal education at Al-Azhar Secondary School, Cairo, where he studied on scholarship from 1997 to 2002. He obtained a Bachelor of Arts in Education (History) from Al-Azhar University in 2006. He later earned a Master’s degree in History and International Studies from the Arab League Institute, Cairo (2015–2018), and completed a Doctor of Philosophy (PhD) in Modern and Contemporary Islamic History at As-Salam International University, Sudan (2019–2022).
+Following his graduation, Dr. Ibrahim completed his National Youth Service Corps (NYSC) at the Federal Capital Territory Administration (FCTA), Abuja, between 2007 and 2008. He subsequently worked with the Federal Radio Corporation of Nigeria (FRCN) from 2012 to 2018, where he gained experience in public communication and educational programming.`,
+      service: `In 2018, he joined NBAIS as an Education Officer I and advanced rapidly through key leadership positions: Head of Tsangaya Education (2019), Coordinator of the Centre for Tsangaya and General Studies (2020), Deputy Director (2021), and Acting Director in 2024. In these roles, he has led strategic initiatives focused on the integration and standardization of Tsangaya and Islamiyya education across Nigeria.`,
+      contributions: `Dr. Ibrahim has played a central role in the design of curricula for Tsangaya and Islamiyya schools and in the development of training programmes for school tutors and Islamic scholars. He has also acquired professional certifications in computer science, political analysis, strategic communication, and Qur’anic sciences. Through his academic expertise and administrative leadership, Dr. Ibrahim Lawal Ibrahim continues to make significant contributions to educational development and Islamic scholarship in Nigeria.`,
     },
     {
       id: "sbdzhfbdsjhbv,sdnb",
