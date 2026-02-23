@@ -51,9 +51,9 @@ const staff = computed(() =>
         class="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-7xl mx-auto px-4 py-12 bg-white"
       >
         <!-- ===== LEFT: SCROLLING TEXT ===== -->
-        <div class="space-y-12 py-10 ">
+        <div class="space-y-12 py-10">
           <!-- Profile Overview -->
-          <div>
+          <div v-if="staff.bio">
             <h2
               class="text-xl md:text-3xl font-bold text-primary3 uppercase italic mb-4"
             >
@@ -65,7 +65,7 @@ const staff = computed(() =>
           </div>
 
           <!-- Educational Background -->
-          <div>
+          <div v-if="staff.education">
             <h2
               class="text-xl md:text-3xl font-bold text-primary3 uppercase italic mb-4"
             >
@@ -77,7 +77,7 @@ const staff = computed(() =>
           </div>
 
           <!-- Academic & Professional Experience -->
-          <div>
+          <div v-if="staff.service">
             <h2
               class="text-xl md:text-3xl font-bold text-primary3 uppercase italic mb-4"
             >
@@ -89,34 +89,32 @@ const staff = computed(() =>
           </div>
 
           <!-- Scholarly Contributions -->
-          <div>
+          <div v-if="staff.service2">
             <h2
               class="text-xl md:text-3xl font-bold text-primary3 uppercase italic mb-4"
             >
               Scholarly Service
             </h2>
             <p class="text-gray-600 text-[16px] leading-[2.5rem] mb-4">
-              {{ staff.service }}
-            </p>
-            <p class="text-gray-600 text-[16px] leading-[2.5rem]">
               {{ staff.service2 }}
             </p>
           </div>
-
           <!-- Personal Status -->
-          <div>
+          <div v-if="staff.contributions">
             <h2
               class="text-xl md:text-3xl font-bold text-primary3 uppercase italic mb-4"
-            >Contributions 
+            >
+              Contributions
             </h2>
             <p class="text-gray-600 text-[16px] leading-[2.5rem]">
               {{ staff.contributions }}
             </p>
           </div>
-          <div>
+          <div v-if="staff.status">
             <h2
               class="text-xl md:text-3xl font-bold text-primary3 uppercase italic mb-4"
-            > Personal Status
+            >
+              Personal Status
             </h2>
             <p class="text-gray-600 text-[16px] leading-[2.5rem]">
               {{ staff.status }}
