@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { Goal, View } from "lucide-vue-next";
-import proprietor from "@/assets/staffs/reg.jpeg";
+import proprietor from "@/assets/staffs/reg.png";
 import bg from "@/assets/images/bg-1.jpeg";
 const pro = ref({
   title: "Registrar/Chief Executive Officer",
@@ -9,62 +9,49 @@ const pro = ref({
   image: proprietor,
   image2: bg,
   welcome: "",
-  describe: `our mission is to elevate Arabic and Islamic education quality across Nigeria through standardized curricula, equitable assessments, and support for affiliated institutions. As a regulatory body under the Federal Ministry of Education, we develop frameworks integrating Arabic, Islamic knowledge, and secular subjects aligned with national education policy.
-
-NBAIS leads in curriculum development, teacher training, quality assurance, and examination administration, maintaining academic integrity and cultural relevance across over 900 recognized schools. We expand access to quality education for diverse learners while fostering academic competition that drives excellence and lifelong learning.
-
-Our vision empowers students as knowledgeable, ethical citizens through regulation, innovation, and stakeholder partnerships. We cultivate intellectual growth alongside cultural and moral foundations, promoting national unity, equity, and skills for modern success.
-
-We value the trust of educators, learners, and communities, remaining committed to strengthening educational pathways that build knowledge, character, and confidence for every student.`,
+  intro:
+    "is a national examination and regulatory body under the Federal Ministry of Education responsible for advancing Arabic and Islamic education across Nigeria.",
+  details:
+    "Established in 1960, NBAIS is responsible for developing standardized curricula, conducting SAISSCE and Tahfeez examinations, and regulating affiliated Arabic and Islamic schools across Nigeria. The Board integrates Arabic, Islamic, science, arts, and commercial education in line with the national education policy while promoting academic excellence, quality assurance, and teacher development.\n\nAs a national examination and regulatory body under the Federal Ministry of Education, NBAIS continues to expand access to quality education through curriculum innovation, digitalized examination processes, stakeholder partnerships, and institutional support for over 900 recognized schools nationwide. The Board also promotes educational inclusion, moral values, cultural relevance, and equal opportunities for learners across the country.",
 });
 </script>
-
 <template>
   <!-- Background section -->
   <section
-    class="relative bg-cover bg-center py-6 px-4 lg:px-8"
+    class="bg-cover bg-center py-6 px-4 lg:px-8"
     :style="{ backgroundImage: `url(${pro.image2})` }"
   >
-    <!-- Overlay -->
-    <!-- <div class="absolute inset-0 bg-black/20"></div> -->
-    <h2
-      class="text-xl md:text-2xl lg:text-4xl font-extrabold text-primary3 italic text-center mb-8"
-    >
-      About NBAIS
-    </h2>
     <div class="relative flex flex-col lg:flex-row items-center gap-12">
       <!-- Image Section -->
-      <div
-        class="lg:w-[40%] flex justify-center"
-        
-      >
+      <div class="lg:w-[40%] flex justify-center">
         <div class="text-center">
           <img
             :src="pro.image"
             alt="School Proprietor"
-            class="w-full h-full object-cover object-top shadow-lg mx-auto"
+            class="w-full h-full object-cover object-top shadow-lg"
           />
-
-          <!-- <h3 class="mt-4 text-lg font-semibold text-primary3 mb-4">
-            {{ pro.name }}
-          </h3>
-          <p class="text-sm text-gray-500 uppercase">
-            {{ pro.title }}
-          </p> -->
         </div>
       </div>
-      <div class="lg:w-[60%] space-y-6  ">
-        <!-- <h2
-          class="relative text-xl md:text-3xl lg:text-5xl font-extrabold text-primary3 italic mb-12"
+      <div class="lg:w-[60%] space-y-6">
+        <h2
+          class="mt-6 text-2xl md:text-3xl lg:text-5xl font-black text-primary3"
+          style="line-height: 5rem"
         >
-          {{ pro?.welcome }}
-        </h2> -->
-
+          Building the Future of Arabic & Islamic Education in Nigeria
+        </h2>
         <p
-          class="text-sm md:text-[15px] font-medium text-gray-600"
-          style="line-height: 2.3rem"
+          class="text-sm md:text-[15px] font-medium text-gray-600 text-justify"
+          style="line-height: 2.6rem"
         >
-          At <span class="text-primary3 font-bold">NBAIS</span> {{ pro?.describe }}
+          <span class="text-primary3 font-bold">NBAIS</span>
+
+          {{ pro?.intro }}
+        </p>
+        <p
+          class="text-sm md:text-[15px] font-medium text-gray-600 text-justify"
+          style="line-height: 2.6rem"
+        >
+          {{ pro?.details }}
         </p>
       </div>
     </div>

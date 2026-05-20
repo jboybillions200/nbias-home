@@ -48,11 +48,12 @@ module.exports = {
       colors: {
         primary1:"#D12830",
         primary2:"#277e06",
-        primary3:"#449AEB",
+        primary3:"#0876BB",
         primary4:"#EAE6E6",
         primary5:"#D2C9C6",
         primary6:"#FEF6B0",
         primary7:"#FEFEFE",
+        primary8:"#449AEB",
         button:"rgb(19, 137, 153)",
         icon:"rgb(254, 254, 255)",
         footertext:"rgb(143, 166, 170)",

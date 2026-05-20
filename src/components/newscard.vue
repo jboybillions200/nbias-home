@@ -20,14 +20,14 @@ defineProps({
 <template>
   <div class="p-2 h-full">
     <div
-      class="group h-full flex flex-col justify-between shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg bg-white"
+      class="group h-full flex flex-col justify-between shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-xl bg-white"
     >
       <!-- Image -->
       <div class="overflow-hidden">
         <img
           :src="image"
           alt="news image"
-          class="w-full h-36 object-cover transition-transform duration-500 group-hover:scale-105"
+          class="w-full h-60 object-cover object-top transition-transform duration-500 group-hover:scale-105"
         />
       </div>
 

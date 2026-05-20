@@ -60,7 +60,7 @@ const head = {
 
     <!-- Content -->
     <div class="relative z-10 px-4">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- LEFT: Cards -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div
@@ -91,18 +91,21 @@ const head = {
         </div>
 
         <!-- RIGHT: Head Content -->
-        <div class="text-center md:text-left" data-aos="fade-left">
+        <div class="text-left" data-aos="fade-left">
           <h1
             class="text-xl md:text-3xl lg:text-5xl font-bold capitalize mb-6 text-primary3"
           >
             {{ head.label }}
           </h1>
 
-          <p class="text-gray-600 text-[16px] mb-6" style="line-height: 2.4rem">
+          <p
+            class="text-sm md:text-[15px] font-medium text-gray-600 text-justify mb-4"
+            style="line-height: 2.4rem"
+          >
             {{ head.description }}
           </p>
 
-          <div class="flex justify-center md:justify-start">
+          <div class="flex justify-start">
             <PrimaryButton2
               title="Know More About Us"
               :icon1="ArrowRight"

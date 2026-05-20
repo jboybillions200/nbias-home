@@ -29,7 +29,7 @@ He is an Associate Member of the Association of National Accountants of Nigeria 
     },
     {
       id:"hfbhdsmgfjsd.kjbvsd,gdssd",
-      name:"Dr. Mariam Zubairu Dalhatu",
+      name:"Dr. Maryam Zubairu Dalhatu",
       title:"Director exams development",
       bio:`Dr. Maryam Dalhatu Zubairu is an experienced educator and management scholar with nearly twenty years of teaching and classroom practice. She is a TRCN-registered teacher and holds a PhD in Business Administration (Management) as well as a Postgraduate Diploma in Education (PGDE).
         She currently serves as the Ag. Director of Examination Development Department at the National Board for Arabic and Islamic Studies (NBAIS), where she contributes to the development, review, and standardization of examination items to ensure quality and credibility. Her work is guided by a strong commitment to academic standards, fair assessment, and continuous improvement in educational systems.

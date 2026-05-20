@@ -2,7 +2,7 @@
 import { ref, computed, watch } from "vue";
 import rawCenters from "@/components/data/centers";
 
-// ✅ FIX: wrap dummy data in a ref
+// FIX: wrap dummy data in a ref
 const centers = ref(rawCenters.centers);
 
 // STATES DROPDOWN
@@ -72,7 +72,7 @@ const prevPage = () => {
     <h2
       class="text-xl md:text-2xl lg:text-4xl font-extrabold text-primary3 italic text-center mt-10 mb-8"
     >
-      NBAIS LIST OF UPDATED CENTERS
+      NBAIS LIST OF CENTERS
     </h2>
     <section class="flex flex-wrap items-center justify-start gap-4 px-4 mb-6">
       <!-- STATE SELECT -->

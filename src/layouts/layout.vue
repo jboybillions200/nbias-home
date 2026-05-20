@@ -33,7 +33,7 @@ onUnmounted(() => {
 
 <template>
   <div class="relative"> 
-    <Navigation />
+    <Navigation class="" />
     <slot />
     <Footer />
 
