@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import profImage from "@/assets/staffs/reg2.png";
 // import infoData from "@/components/data/infoData";
-import bg from "@/assets/bg/8.png";
+import bg from "@/assets/bg/bg-pattern.png";
 const founder = ref({
   prof: profImage,
   title:'PROF.Yahuza Sulaiman Imam', 
@@ -10,16 +10,16 @@ const founder = ref({
 });
 </script>
 <template>
-  <section class="relative bg-center bg-cover py-20">
+  <section class="relative bg-center bg-cover py-16 bg-primary3/70">
     <div class="py-4">
       <img
       :src="bg"
-      class="w-full object-cover"
+      class="w-full h-32 object-cover object-top"
       alt="prof"
     />
     </div>
     <!-- Overlay -->
-    <div class="absolute inset-0 bg-black/30"></div>
+    <div class="absolute inset-0 bg-primary3/40"></div>
     
     <!-- Text Content on Background -->
     <div class="absolute inset-0 z-10 flex items-end justify-start pl-36 md:pl-72">

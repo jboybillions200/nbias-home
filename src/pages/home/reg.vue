@@ -66,13 +66,6 @@ const pro = ref({
             alt="School Proprietor"
             class="w-96 h-full object-cover object-top shadow-lg mx-auto"
           />
-
-          <!-- <h3 class="mt-4 text-lg font-semibold text-primary3 mb-4">
-            {{ pro.name }}
-          </h3>
-          <p class="text-sm text-gray-500 uppercase">
-            {{ pro.title }}
-          </p> -->
         </div>
       </div>
     </div>
