@@ -30,7 +30,7 @@ const navGroups = [
     title: "Main",
     items: [
       { name: "Home", path: "/", icon: House },
-      { name: "About Us", path: "/about", icon: Info },
+      { name: "About", path: "/about", icon: Info },
     ],
   },
   {
@@ -48,7 +48,7 @@ const navGroups = [
     title: "Connect",
     items: [
       { name: "Blogs", path: "/blogs", icon: Newspaper },
-      { name: "Contact Us", path: "/contact", icon: Phone },
+      { name: "Contact", path: "/contact", icon: Phone },
     ],
   },
 ];
@@ -72,21 +72,21 @@ onUnmounted(() => window.removeEventListener("scroll", handleScroll));
 <template>
   <!-- NAVBAR -->
   <header
-    class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100 transition-all duration-300 "
+    class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100 transition-all duration-300"
   >
     <Top />
 
     <!-- LARGE SCREEN NAV -->
     <div
-      class="h-20 px-6 hidden lg:grid grid-cols-[220px_1fr_320px] items-center gap-6"
+      class="h-20 px-6 hidden lg:flex items-center justify-between gap-6"
     >
-      <!-- LOGO -->
-      <router-link to="/" class="flex items-center">
+      <!-- LOGO (LEFT) -->
+      <router-link to="/" class="flex items-center shrink-0">
         <img :src="infoData?.about?.generalLogo" class="h-12 object-contain" />
       </router-link>
 
-      <!-- CENTER NAV -->
-      <nav class="flex items-center justify-center">
+      <!-- CENTER NAV (MIDDLE) -->
+      <nav class="flex items-center justify-center flex-1">
         <div
           class="flex items-center bg-gray-50 border border-primary3 rounded-full px-3 py-2 shadow-lg"
         >
@@ -123,8 +123,8 @@ onUnmounted(() => window.removeEventListener("scroll", handleScroll));
         </div>
       </nav>
 
-      <!-- RIGHT BUTTONS -->
-      <div class="flex items-center justify-end gap-3">
+      <!-- RIGHT BUTTONS (RIGHT) -->
+      <div class="flex items-center justify-end gap-3 shrink-0">
         <PrimaryButton
           :href="infoData?.about?.loginUrl"
           title="Center Login"
